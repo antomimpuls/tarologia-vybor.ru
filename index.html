@@ -11,10 +11,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700;800&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script>
 const SITE_SETTINGS = {
-  'phoneNumber': '+79612006179',
+  'phoneNumber': '+79185035434',
   'telegramEnabled': 1,
-  'telegramNickname': 'Vselena2000000',
-  'psychicName': 'Оксана Юрьевна',
+  'telegramNickname': 'Elenamag2021',
+  'psychicName': 'Елена',
   'city': 'Без указания города',
   'address': 'Работаю по частной записи, адрес сообщаю после диагностики',
   'enableRedirect': false,
@@ -28,7 +28,7 @@ const SITE_SETTINGS = {
   'responseTime': '5-15 минут',
   'metrikaMessengerVisible': false
 };
-const PSYCHIC_NAME=SITE_SETTINGS.psychicName||'Оксана Юрьевна';
+const PSYCHIC_NAME=SITE_SETTINGS.psychicName||'Елена';
 const PHONE_DIGITS=(SITE_SETTINGS.phoneNumber||'').replace(/\D/g,'');
 const WHATSAPP_MESSAGE=PSYCHIC_NAME ? `Здравствуйте, ${PSYCHIC_NAME}! Хочу обратиться к вам за помощью.` : 'Здравствуйте, хочу обратиться к вам за помощью.';
 const ENCODED_MESSAGE=encodeURIComponent(WHATSAPP_MESSAGE);
@@ -1245,7 +1245,7 @@ function replaceNamePlaceholders(name){
 }
 
 function setImagesAndTexts(){
-    const psychicName = SETTINGS.psychicName || 'Оксана Юрьевна';
+    const psychicName = SETTINGS.psychicName || 'Елена';
     replaceNamePlaceholders(psychicName);
     const heroName = document.getElementById('heroName');
     if (heroName) {
