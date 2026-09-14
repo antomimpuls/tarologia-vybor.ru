@@ -11,10 +11,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700;800&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script>
 const SITE_SETTINGS = {
-  'phoneNumber': '+79185035434',
+  'phoneNumber': '+79188590503',
   'telegramEnabled': 1,
-  'telegramNickname': 'Elenamag2021',
-  'psychicName': 'Елена',
+  'telegramNickname': 'eleonora003',
+  'psychicName': 'Элеонора',
   'city': 'Без указания города',
   'address': 'Работаю по частной записи, адрес сообщаю после диагностики',
   'enableRedirect': false,
@@ -26,12 +26,11 @@ const SITE_SETTINGS = {
   'psychicImageURL': 'https://raw.githubusercontent.com/antomimpuls/tarologia-vybor.ru/main/5WePvtJwOSQcYSpG69yjEvtnIOwetRGXpQdSh_nQUjVoZeyK7PsMxK_f3QHhBIP-kNdThMNLXd9oXtjrsnKtQhNU.jpg',
   'workingHours': 'ежедневно с 8:00 до 23:00',
   'responseTime': '5-15 минут',
-  'metrikaMessengerVisible': false
-,
-  "maxEnabled": false,
-  "maxUrl": ""
+  'metrikaMessengerVisible': false,
+  'maxEnabled': false,
+  'maxUrl': ""
 };
-const PSYCHIC_NAME=SITE_SETTINGS.psychicName||'Елена';
+const PSYCHIC_NAME=SITE_SETTINGS.psychicName||'Элеонора';
 const PHONE_DIGITS=(SITE_SETTINGS.phoneNumber||'').replace(/\D/g,'');
 const WHATSAPP_MESSAGE=PSYCHIC_NAME ? `Здравствуйте, ${PSYCHIC_NAME}! Хочу обратиться к вам за помощью.` : 'Здравствуйте, хочу обратиться к вам за помощью.';
 const ENCODED_MESSAGE=encodeURIComponent(WHATSAPP_MESSAGE);
@@ -683,7 +682,7 @@ footer{background:#0b131a;padding:40px 0;text-align:center;border-top:1px solid 
 <div class="testimonial-header">
 <div class="avatar">Е</div>
 <div>
-<h4 style="margin:0 0 5px">Елена, 32 года, Екатеринбург</h4>
+<h4 style="margin:0 0 5px">Элеонора, 32 года, Екатеринбург</h4>
 <div class="stars">★★★★★</div>
 </div>
 </div>
@@ -1248,7 +1247,7 @@ function replaceNamePlaceholders(name){
 }
 
 function setImagesAndTexts(){
-    const psychicName = SETTINGS.psychicName || 'Елена';
+    const psychicName = SETTINGS.psychicName || 'Элеонора';
     replaceNamePlaceholders(psychicName);
     const heroName = document.getElementById('heroName');
     if (heroName) {
